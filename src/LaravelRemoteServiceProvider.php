@@ -2,9 +2,9 @@
 
 namespace Jfunulab\LaravelRemote;
 
+use Jfunulab\LaravelRemote\Commands\LaravelRemoteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Jfunulab\LaravelRemote\Commands\LaravelRemoteCommand;
 
 class LaravelRemoteServiceProvider extends PackageServiceProvider
 {

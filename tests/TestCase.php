@@ -3,8 +3,8 @@
 namespace Jfunulab\LaravelRemote\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Jfunulab\LaravelRemote\LaravelRemoteServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
