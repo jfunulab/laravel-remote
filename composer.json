@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "jfunulab/laravel-remote",
+    "description": "Executes laravel artisan commands on a remote server",
     "keywords": [
-        ":vendor_name",
+        "jfunulab",
         "laravel",
-        ":package_slug"
+        "laravel-remote"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/jfunulab/laravel-remote",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Joel Funu",
+            "email": "jfunu79@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Jfunulab\\LaravelRemote\\": "src",
+            "Jfunulab\\LaravelRemote\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Jfunulab\\LaravelRemote\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Jfunulab\\LaravelRemote\\LaravelRemoteServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelRemote": "Jfunulab\\LaravelRemote\\Facades\\LaravelRemote"
             }
         }
     },
